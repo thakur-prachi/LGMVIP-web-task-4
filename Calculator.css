@@ -1,0 +1,64 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:120vh;
+    user-select: none;
+   /* background:#88889e ;*/
+    background-image: url(Calculator.jpg);
+}
+.container{
+    margin-left:2em;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #121212, -10px -10px 15px #0f0f0f;
+    /*background:#323233 ;*/
+}
+
+.sup{
+    position: relative;
+    bottom: 1ex;
+    font-size: 80%;
+}
+.row button{
+     width: 60px;
+     height: 30px;
+     font-size: 15px;
+     border: none;
+     outline:none;
+     margin: 5px;
+     transition: 0.2s;
+     box-shadow: 5px 5px 10px #00000020, -5px -5px 10px #232222;
+}
+.row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(15,15.15,0.1), ;
+    background: #3c3b3b;
+}
+#equal:hover{
+    box-shadow: inset 3px 3px 5px #000405,
+    inset -3px -3px 5px #303131;
+}
+#ac:hover{
+    box-shadow: inset 3px 3px 5px #000405,
+    inset -3px -3px 5px #303131;
+}
+#clear:hover{
+    box-shadow: inset 3px 3px 5px #000405,
+    inset -3px -3px 5px #303131;
+}
+.display #screen{
+    margin-bottom: 0.3em;
+    width: auto;
+    height: 80px;
+    font-size: 35px;
+    outline: none;
+    border:none;
+    text-align: right;
+    padding-right: 0.5em;
+    background-color: #f0f0f0;
+    box-shadow: inset 8px 8px 8px #d0d0d0,
+    inset -8px -8px 8px #e2e0e0;
+
+}
